@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+
+
+.animatedText {
+  animation: fadeInOut 4s linear infinite;
+}
+
+.slick-slide {
+
+}             
+
+/* the parent */
+.slick-list {
+  margin: 0 -27px;
+}
+
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animated-slide-in-right {
+  animation: slideInRight 0.5s ease-out;
+}
+
+.animated-slide-in-left {
+  animation: slideInLeft 0.5s ease-out;
+}
+
+
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-4%); /* Adjust the distance to move the image */
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.appear {
+  animation: appear 1s ease-out; /* Adjust the animation duration and easing as needed */
+}
+
+.moveLeft {
+  animation: moveLeft 1s ease-out; /* Adjust the animation duration and easing as needed */
+}
+
