@@ -4,7 +4,7 @@ import FooterLogo from "../assets/Group 3931.png"
 import Tele from "../assets/icons/Vector.png"
 import Face from "../assets/icons/Vector2.png"
 import Twitter from "../assets/icons/Twitter.png"
-import Insta from "../assets/icons/instagram.png"
+import Insta from "../assets/icons/Instagram.png"
 import Link from "next/link"
 
 export default function Footer() {
