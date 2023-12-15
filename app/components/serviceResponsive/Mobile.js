@@ -12,7 +12,7 @@ export default function Mobile() {
     };
 
     return (
-        <div className="mx-auto pt-20 h-full">
+        <div className="mx-auto pt-20 h-full pb-6">
 
 
             <div className=" mx-auto">

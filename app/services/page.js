@@ -26,7 +26,7 @@ export default function Services() {
   }, []);
 
   return (
-    <div className="w-full lg:h-screen h-full bg-black pb-14">
+    <div className="w-full lg:h-screen h-full bg-black ">
       <NavBar />
 
       {isDesktop ? <Desktop /> : <Mobile />}

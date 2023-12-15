@@ -58,7 +58,7 @@ const AnimatedDivs = () => {
               <h1 className='text-black text-9xl font-bold'>1</h1>
               <h3 className='text-black text-[64px] mt-4 font-medium'>Брендинг.</h3>
             </div>
-            <p className='text-black w-[40%] text-2xl  font-normal'>Создание бренда компании ( нейминг, логотип, цветовая палитра, типография, графические элементы, стиль фотографий и изображений, звуковая айдентика, текстовый стиль, инфографика и иллюстрации ).
+            <p className='text-black w-[40%] lg:text-2xl text-3xl   font-normal'>Создание бренда компании ( нейминг, логотип, цветовая палитра, типография, графические элементы, стиль фотографий и изображений, звуковая айдентика, текстовый стиль, инфографика и иллюстрации ).
 </p>
           </div>
         </foreignObject>
@@ -79,7 +79,7 @@ const AnimatedDivs = () => {
               Production.
               </h3>
             </div>
-            <p className='text-black w-[40%] text-2xl font-normal'>Фото и видео продакшн для создания качественного контента компании ( профессиональные фотосессии и видео ролики для компаний ).
+            <p className='text-black w-[40%] lg:text-2xl text-3xl  font-normal'>Фото и видео продакшн для создания качественного контента компании ( профессиональные фотосессии и видео ролики для компаний ).
 
 </p>
           </div>
@@ -100,7 +100,7 @@ const AnimatedDivs = () => {
               <h1 className='text-black text-9xl font-bold '>3</h1>
               <h3 className='text-black text-[64px] mt-4 font-medium'>Web.</h3>
             </div>
-            <p className='text-black w-[40%] text-2xl font-normal'>Создание и обновление веб-сайтов, лендингов, баннеров и других графических материалов.
+            <p className='text-black w-[40%] lg:text-2xl text-3xl font-normal'>Создание и обновление веб-сайтов, лендингов, баннеров и других графических материалов.
  </p>
           </div>
         </foreignObject>
@@ -119,7 +119,7 @@ const AnimatedDivs = () => {
               <h1 className=' text-black text-9xl font-bold'>4</h1>
               <h3 className='text-black text-[64px] mt-4 font-medium'>SMM.</h3>
             </div>
-            <p className='text-black w-[40%] text-2xl font-normal'>SMM от &quot;Spectr&quot;: мастерим эффективные стратегии, выделяем ваш бренд в соцсетях, привлекаем внимание аудитории и формируем устойчивый положительный имидж.
+            <p className='text-black w-[40%] lg:text-2xl text-3xl font-normal'>SMM от &quot;Spectr&quot;: мастерим эффективные стратегии, выделяем ваш бренд в соцсетях, привлекаем внимание аудитории и формируем устойчивый положительный имидж.
 .</p>
           </div>
         </foreignObject>
@@ -127,8 +127,8 @@ const AnimatedDivs = () => {
     </div>,
  <Link key={5} href={'../services'} >
 <div  className='ml-auto xl:mt-96 max-w-[1500px] w-[70%] lg:mt-48 mt-20'>
-  <button className='bg-[#fcfafa] w-[70%] text-[64px] text-black h-[10vh] md:h-[200px] rounded-[208px] border border-white'>
-    See full service
+  <button className='bg-[#fcfafa] w-[70%] lg:text-[64px] text-[20px] text-black h-[10vh] md:h-[200px] rounded-[208px] border border-white'>
+    Остальные услуги
   </button>
 </div>
 </Link>

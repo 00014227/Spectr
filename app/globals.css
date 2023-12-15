@@ -26,7 +26,7 @@
   margin: 0 -27px;
 }
 
-
+/* animation for figure */
 @keyframes slideInRight {
   from {
     transform: translateX(100%);
@@ -90,4 +90,9 @@
 .moveLeft {
   animation: moveLeft 1s ease-out; /* Adjust the animation duration and easing as needed */
 }
+
+
+
+
+
 

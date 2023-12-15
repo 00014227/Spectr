@@ -19,7 +19,7 @@ export default class Responsive extends Component {
       infinite: true,
       speed: 500,
       slidesToShow: 4,
-      slidesToScroll: 4,
+      slidesToScroll: 1,
       rows: 3,
       responsive: [
         {
@@ -28,6 +28,7 @@ export default class Responsive extends Component {
             slidesToShow: 3,
             slidesToScroll: 1,
             rows: 3,
+            arrows: false
           },
         },
       ],
@@ -37,8 +38,8 @@ export default class Responsive extends Component {
       <div className="lg:px-32 px-0 ">
         <Slider {...settings}>
           {images.map((image, index) => (
-            <div key={index}  className="  w-auto">
-              <div className=" space-x-6">
+            <div key={index}  className="  w-full">
+              <div className="">
                 <div className="lg:w-[20vw] w-[30vw]  lg:h-[18vh] h-[8vh] rounded-3xl  mt-4  bg-white border border-white  flex ">
                   <Image
                     src={image.default}

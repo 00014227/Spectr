@@ -17,7 +17,23 @@ import Group94 from './assets/Group94.png'
 import AnimatedDivs from './components/AnimatedDivs '
 import Link from 'next/link'
 import Footer from './components/Footer'
+import { useEffect, useState } from 'react'
 export default function Home() {
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
+
+  useEffect(() => { 
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth < 1224);
+    }; 
+
+    handleResize(); // Initial check on component mount
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
 
   return (
@@ -105,7 +121,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className='bg-black'>
+      <section className='bg-black lg:h-screen'>
         <div className="bg-[url('./assets/Rectangle15.png')] bg-no-repeat bg-cover h-full flex flex-col items-center justify-center pb-48">
           <h1 className='text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-center pt-16 sm:pt-24 md:pt-32 lg:pt-40 xl:pt-48'>
             We will provide an incredible<br /> user experience that will<br /> parasitize you.
@@ -188,10 +204,16 @@ export default function Home() {
             </div>
           </form>
 
-          <div className={`w-[70%] py-[400px] px-[180px]  max-h-[880px] h-[auto] rounded-tl-[30px] rounded-bl-[30px] ml-auto border-2 border-white my-auto items-center justify-center z-1 `}>
-            <Image src={Group94} className="" alt='ooooo' />
-          </div>
-
+          {isLargeScreen ? (
+        // Content to show on large screens
+      null
+      ) : (
+        // Content to show on small screens
+        <div className={`w-[70%] py-[400px] px-[180px] max-h-[880px] h-[auto] rounded-tl-[30px] rounded-bl-[30px] ml-auto border-2 border-white my-auto items-center justify-center z-1`}>
+          <Image src={Group94} className="" alt='ooooo' />
+        </div>
+      )}
+           
         </div>
       </section>
 

@@ -54,7 +54,7 @@ export default function About() {
 
       <section className="w-full">
         <div className="bg-black h-[100vh] relative">
-          <h1 className="text-white pl-4 sm:pl-32 text-4xl sm:text-7xl font-bold uppercase">новости агентства</h1>
+          <h1 className="text-white pl-4 sm:pl-32 text-3xl lg:text-7xl font-bold uppercase">новости агентства</h1>
           <div className="w-full h-[70vh] mt-8 sm:mt-20 pl-4 sm:pl-32">
             <NewSlider className="absolute bottom-8 sm:bottom-32" />
           </div>

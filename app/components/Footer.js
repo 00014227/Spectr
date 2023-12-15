@@ -9,20 +9,20 @@ import Link from "next/link"
 
 export default function Footer() {
     return (
-        <footer className=" w-full bg-[#282828] lg:px-52 px-3 pt-14 pb-11 ">    
+        <footer className=" w-full bg-[#282828] lg:px-52 px-3 lg:pt-14 pb-11 ">    
             <div className="lg:flex justify-center  block gap-5">
                 <Image src={FooterLogo} className="mx-auto" alt="SpectrLogo"/>
                 <div className="w-[80%] h-0.5 bg-zinc-300 my-auto mx-auto" />
-                <div className="flex lg:gap-4 gap-14  my-auto lg:mt-4 justify-center">
+                <div className="flex lg:gap-4 gap-14 my-auto justify-center">
                     <Link href={"https://t.me/spectrmarketing"}>
-                    <Image src={Tele} className=" w-9 h-8" alt="Telegram"/>
+                    <Image src={Tele} className=" w-9 h-8" alt="Spectr Telegram"/>
                     </Link>
                     
-                    <Image src={Face} className=" w-9 h-8" alt="FaceBook"/>
-                    <Image src={Twitter} className=" w-9 h-8" alt="Twitter"/>
+                    <Image src={Face} className=" w-9 h-8" alt="Spectr FaceBook"/>
+                    <Image src={Twitter} className=" w-9 h-8" alt="Spectr Twitter"/>
                     <Link href={"https://www.instagram.com/spectr.marketing/"}>
                     
-                    <Image src={Insta} className=" w-9 h-8" alt="Instagram"/>
+                    <Image src={Insta} className=" w-9 h-8" alt="Spectr Instagram"/>
                     </Link>
                 </div>
             </div>
