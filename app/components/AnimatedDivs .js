@@ -55,11 +55,11 @@ const AnimatedDivs = () => {
         <text x="5%" y="27%" dominantBaseline="middle" textAnchor="middle" fill="black" fontSize="9em" fontWeight="bold">1</text>
         <text x="20%" y="26%" dominantBaseline="middle" textAnchor="middle" fill="black" fontSize="64px" fontWeight="medium">Брендинг.</text>
         <text x="80%" y="16%" dominantBaseline="middle" textAnchor="middle" fill="black" fontSize="30px" fontWeight="normal" width="40%">
-          <tspan x="67.8%" dy="1.2em">Создание бренда компании " нейминг, логотип,</tspan>
+          <tspan x="67.8%" dy="1.2em">Создание бренда компании &quot нейминг, логотип,</tspan>
           <tspan x="66.5%" dy="1.2em">цветовая палитра, типография, графические</tspan>
           <tspan x="66.9%" dy="1.2em">элементы, стиль фотографий и изображений,</tspan>
           <tspan x="63.5%" dy="1.2em">звуковая айдентика, текстовый стиль,</tspan>
-          <tspan x="59.9%" dy="1.2em">инфографика и иллюстрации ".</tspan>
+          <tspan x="59.9%" dy="1.2em">инфографика и иллюстрации &quot.</tspan>
         </text>
       </svg>
     </div>,
@@ -108,7 +108,7 @@ const AnimatedDivs = () => {
         <text x="17%" y="30%" dominantBaseline="middle" textAnchor="middle" fill="black" fontSize="9em" fontWeight="bold">4</text>
         <text x="30%" y="28%" dominantBaseline="middle" textAnchor="middle" fill="black" fontSize="64px" fontWeight="medium">SMM.</text>
         <text x="80%" y="16%" dominantBaseline="middle" textAnchor="middle" fill="black" fontSize="30px" fontWeight="normal" width="40%">
-          <tspan x="70%" dy="1.2em">SMM от "Spectr": мастерим эффективные</tspan>
+          <tspan x="70%" dy="1.2em">SMM от &quotSpectr&quot: мастерим эффективные</tspan>
           <tspan x="66.5%" dy="1.2em">стратегии, выделяем ваш бренд в</tspan>
           <tspan x="65.9%" dy="1.2em">соцсетях, привлекаем внимание</tspan>
           <tspan x="67.9%" dy="1.2em">аудитории и формируем устойчивый</tspan>
