@@ -40,7 +40,7 @@ export default class Responsive extends Component {
           {images.map((image, index) => (
             <div key={index}  className="  w-full">
               <div className="">
-                <div className="lg:w-[20vw] w-[30vw]  lg:h-[18vh] h-[8vh] rounded-3xl  mt-4  bg-white border border-white  flex ">
+                <div className="lg:w-[20vw] w-[30vw]  lg:h-[20vh] h-[10vh] rounded-3xl  mt-4  bg-white border border-white  flex ">
                   <Image
                     src={image.default}
                     alt={`Image ${index + 1}`}

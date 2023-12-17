@@ -28,7 +28,7 @@ const AnimatedText = ({ serverIndex }) => {
       {isHydrated && ( // Render content only after hydration
         isLargeScreen ? (
           <div className="bg-blue-500 inline-block transition-width duration-1000 ease-in-out rounded-full py-4" style={{ width: `${texts[displayIndex].length * widthMultiplier}px` }}>
-            <h1 className="lg:text-7xl text-lg font-bold pl-7 text-white transition-opacity duration-1000 ease-in-out" style={{ opacity: displayIndex === 0 ? 0 : 0.5 }}>
+            <h1 className="lg:text-7xl text-lg font-bold pl-7 text-white transition-opacity duration-1000 ease-in-out" style={{ opacity: 0.5 }}>
               {texts[displayIndex]}
             </h1>
           </div>

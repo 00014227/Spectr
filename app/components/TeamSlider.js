@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 const imageNames = [
-   '_1935613671152.png', '_1935628146064.png', '_1935636335056.png',
+    '_1935628146064.png', '_1935636335056.png',
   '_1935641240016.png', '_1936283096736.png', '_1936283353808.png', '_1936288629984.png', '_1936292210752.png', '_1971809789792.png',
   '_1971812693440.png', '_1971814959296.png'
 ];
@@ -15,7 +15,7 @@ const images = imageNames.map((imageName) => import(`../assets/Logos/${imageName
 export default class TeamSlider extends Component {
   render() {
     const settings = {
-
+      arrows: false,
       infinite: true,
       speed: 500,
       slidesToShow: 4,
@@ -27,7 +27,7 @@ export default class TeamSlider extends Component {
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
-       
+            arrows: false
           },
         },
       ],

@@ -8,7 +8,7 @@ import Video from './assets/Frame.png'
 import Line1 from './assets/Line1.png'
 import Line2 from './assets/Line2.png'
 import { Jost } from 'next/font/google'
-import Union from './assets/Union.png'
+
 import PartnerSlider from './components/PartnerSlider'
 import Responsive from './components/PartnerSlider'
 

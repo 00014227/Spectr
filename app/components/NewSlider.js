@@ -10,6 +10,7 @@ import Link from "next/link";
 export default class NewSlider extends Component {
     render() {
         const settings = {
+            arrows: false,
             dots: true,
             infinite: true,
             speed: 500,
@@ -22,7 +23,7 @@ export default class NewSlider extends Component {
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-
+                        arrows: false
                     },
                 },
             ],

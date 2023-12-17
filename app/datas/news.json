@@ -29,30 +29,7 @@
       "content": "Социальные медиа продолжают оставаться неотъемлемой частью нашей повседневной жизни, и в 2023 году мы наблюдаем за эволюцией взаимодействия и контента. Давайте рассмотрим некоторые ключевые тренды, которые формируют облик социальных медиа в ближайшем будущем.\n\n1. **Рост Аудио-Контента:** Подкасты и аудио-стриминг становятся все популярнее. Платформы предоставляют новые инструменты для создания и распространения аудио-контента, предлагая пользователям более разнообразный опыт.\n\n2. **Взаимодействие с Реальным Временем:** Прямые трансляции и сторис в социальных медиа позволяют брендам и пользователям взаимодействовать в реальном времени. Это создает более близкие и непосредственные связи между брендами и их аудиторией.\n\n3. **Новые Форматы Визуального Контента:** С развитием AR-технологий и фильтров, социальные медиа становятся площадкой для создания уникальных и веселых визуальных элементов, которые подчеркивают индивидуальность.\n\nСоциальные медиа продолжают меняться, и мы готовы приступить к созданию контента, который будет выделять вас в этом динамичном цифровом мире. Следите за нами, чтобы узнать больше о последних тенденциях и советах по ведению социальных медиа-страниц!",
       "image": "image4-3.png",
       "category": "Социальные Медиа"
-    },
-    {
-      "id": 4,
-      "title": "Exciting Marketing Campaign Launch",
-      "date": "2023-01-15",
-      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "image": "path/to/image1.jpg",
-      "category": "Campaigns"
-    },
-    {
-      "id": 5,
-      "title": "New Digital Marketing Strategies",
-      "date": "2023-02-20",
-      "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "image": "path/to/image2.jpg",
-      "category": "Digital Marketing"
-    },
-    {
-      "id": 6,
-      "title": "Upcoming Webinar: SEO Best Practices",
-      "date": "2023-03-10",
-      "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "image": "path/to/image3.jpg",
-      "category": "Events"
     }
+    
   ]
 }
