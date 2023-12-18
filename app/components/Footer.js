@@ -33,10 +33,10 @@ export default function Footer() {
 
             <div className="lg:flex block mt-16 justify-between">
                 <div className="flex lg:gap-24 gap-4 justify-between">
-                    <Link href={""} className="text-white lg:text-2xl text-sm font-medium">Главная</Link>
-                    <Link href={""} className="text-white lg:text-2xl text-sm font-medium">О нас</Link>
-                    <Link href={""} className="text-white lg:text-2xl text-sm font-medium">Услуги</Link>
-                    <Link href={""} className="text-white lg:text-2xl text-sm font-medium">Команда</Link>
+                    <Link href={""} className="text-white lg:text-2xl text-lg font-medium">Главная</Link>
+                    <Link href={""} className="text-white lg:text-2xl text-lg font-medium">О нас</Link>
+                    <Link href={""} className="text-white lg:text-2xl text-lg font-medium">Услуги</Link>
+                    <Link href={""} className="text-white lg:text-2xl text-lg font-medium">Команда</Link>
                 </div>
 
                 <div className="lg:block flex justify-center gap-8 mt-12 lg:mt-0  lg:space-y-12">
@@ -53,8 +53,8 @@ export default function Footer() {
             </div>
 
             <div className="lg:flex block mt-16 justify-between">
-                <p className="text-white lg:text-2xl text-xs font-medium">@Info: spectragency@gmail.com</p>
-                <p className="text-white lg:text-2xl text-xs font-medium">Сайт разработан маркетинговым агентством Spectr</p>
+                <p className="text-white lg:text-2xl text-lg font-medium">Email: spectragency@gmail.com</p>
+                <p className="text-white lg:text-2xl text-lg font-medium">Сайт разработан маркетинговым агентством Spectr</p>
             </div>
         </footer>
     )

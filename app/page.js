@@ -116,8 +116,8 @@ export default function Home() {
 
       <section className=' bg-black pb-48 w-full'>
         <div className=' mx-auto'>
-          <h2 className='text-white text-4xl sm:text-5xl md:text-6xl pl-24 lg:text-7xl xl:text-7xl font-bold pb-3 sm:pb-4 md:pb-5"'>Нам доверяют</h2>
-          <Responsive />
+          <h2 className='text-white text-4xl  sm:text-5xl md:text-6xl text-center  lg:text-7xl xl:text-7xl font-bold pb-3 sm:pb-4 md:pb-5"'>Нам доверяют</h2>
+            <Responsive />
         </div>
       </section>
 
@@ -142,9 +142,9 @@ export default function Home() {
 
 
       <section className="pt-6 md:pb-10 pb-5 dark:text-white bg-black w-full">
-        <div className='relative w-auto max-w-[1636px] flex flex-row my-auto ml-auto'>
-          <form className="container lg:w-[30vw] max-w-[686px] h-auto max-h-[771px] lg:ml-40 ml-0 p-8 space-y-6 rounded-md shadow bg-[#282828] md:absolute md:left-38 md:top-16">
-            <h2 className=" text-3xl font-bold leading text-white">Contact us</h2>
+        <div className='relative w-auto  max-w-[1636px] flex flex-row my-auto ml-auto'>
+          <form className="container lg:w-[30vw] mx-auto max-w-[686px] h-auto max-h-[771px] lg:ml-40 ml-0 p-8 space-y-6 rounded-md shadow bg-[#282828] xl:absolute xl:left-38 xl:top-16">
+            <h2 className=" text-3xl font-bold leading text-white">Свяжитесть с нами</h2>
             {/* ... (rest of the form content) */}
             <div>
               <label htmlFor="name" className="block mb-1 ml-1 text-white">Ваше имя </label>
